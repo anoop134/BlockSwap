@@ -1992,3 +1992,13 @@ span.msgIcon {
     color: #8b0707;
     vertical-align: middle;
 }
+
+.demo_sec {
+    background: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.nightMode .whiteText {
+    color: #fff !important;
+}
