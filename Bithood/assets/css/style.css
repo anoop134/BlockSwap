@@ -2004,3 +2004,8 @@ span.msgIcon {
 .nightMode .whiteText {
     color: #fff !important;
 }
+
+.infoIcon .msgIcon {
+    background: #75a5ae !important;
+    border-color: #75a5ae !important;
+}
