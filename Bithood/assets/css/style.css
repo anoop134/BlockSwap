@@ -1753,8 +1753,21 @@ body.nightMode,
     background-image: url(../images/white-arrow.png);
 }
 
-.nightMode .mainContent {
+
+/* .nightMode .mainContent {
     background-image: url(../images/nightModeBg.jpg);
+} */
+
+.nightMode .mainContentBgImg {
+    background-image: url(../images/nightModeBg.jpg);
+}
+
+.mainContentBgImg {
+    background-image: url(../images/dayModeBg.jpg);
+}
+
+.nightMode .mainContent {
+    background-color: #142134;
 }
 
 .nightMode .globalTabBox .tab-content,
@@ -2012,4 +2025,16 @@ span.msgIcon {
 
 .flickData {
     background-color: #75a5ae !important;
+}
+
+.user_buy_dot {
+    font-size: 9px;
+    color: #0aaa0a;
+    margin-right: 10px;
+}
+
+.user_sell_dot {
+    font-size: 9px;
+    color: #aa200a;
+    margin-right: 10px;
 }
