@@ -39,7 +39,7 @@ header nav {
 }
 
 .mainContent {
-    margin-top: 55px;
+    margin-top: 80px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -206,6 +206,7 @@ header nav {
     margin: 0;
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .userActivityInfo li {
@@ -285,7 +286,7 @@ header nav {
 }
 
 .loginBox {
-    max-width: 216px;
+    max-width: 107px;
     width: 100%;
     text-align: right;
     margin-left: auto;
@@ -799,7 +800,7 @@ h2.wColor:before {
 
 .overlaySection {
     position: relative;
-    min-height: 100px;
+    /* min-height: 100px; */
     z-index: 9;
 }
 
@@ -813,7 +814,7 @@ h2.wColor:before {
     align-items: center;
     position: absolute;
     left: -39px;
-    top: 20px;
+    top: 40px;
 }
 
 .overlayBtn span {
@@ -2010,7 +2011,7 @@ span.msgIcon {
     background: #ff0000;
     color: #ffffff;
     padding: 8px 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border-radius: 5px;
 }
 
@@ -2037,4 +2038,17 @@ span.msgIcon {
     font-size: 9px;
     color: #aa200a;
     margin-right: 10px;
+}
+
+.demoBox {
+    max-width: 63px;
+    width: 100%;
+    margin-left: 7px;
+}
+
+.top_header {
+    background-color: #e9cd46;
+    padding: 7px 15px;
+    /* color: #4a79bc;
+    text-align: center; */
 }
